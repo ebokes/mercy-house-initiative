@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const WhatWeDoIntro = () => {
   return (
-    <section className="lg:flex justify-between h-80 space-x-9 mb-[200px] mx-auto">
-      <div className="h-full  lg:w-[50%] bg-cover bg-no-repeat bg-medic bg-center"></div>
-      <div className="lg:w-[50%] bg-gradient-to-t from-white to-white">
+    <section className="lg:flex justify-between  mx-auto">
+      <div className="h-90  lg:w-[50%] bg-cover bg-no-repeat bg-medic bg-center"></div>
+      <div className="lg:w-[50%] bg-gradient-to-t from-gray-100 to-gray-100 p-8 pl-8 pb-[60px]">
         <div className="lg:max-w-[600px] pr-5">
           <h2 className="text-[52px] font-semibold">What we do</h2>
           <p className="mb-4">
