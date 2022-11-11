@@ -1,25 +1,25 @@
 import React from "react";
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+// import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const WhoWeAreIntro = () => {
-  const NextArrow = ({ onClick }) => {
-    return (
-      <div onClick={onClick}>
-        <FaAngleRight className="icons" />
-      </div>
-    );
-  };
+  // const NextArrow = ({ onClick }) => {
+  //   return (
+  //     <div onClick={onClick}>
+  //       <FaAngleRight className="icons" />
+  //     </div>
+  //   );
+  // };
 
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div onClick={onClick}>
-        <FaAngleLeft className="icons" />
-      </div>
-    );
-  };
+  // const PrevArrow = ({ onClick }) => {
+  //   return (
+  //     <div onClick={onClick}>
+  //       <FaAngleLeft className="icons" />
+  //     </div>
+  //   );
+  // };
 
   const settings = {
     dots: true,
