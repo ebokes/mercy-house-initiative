@@ -7,12 +7,12 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <header className="w-full px-5 border border-b-gray-500">
+    <header className="w-full px-5 border border-b-gray-500 absolute top-0 z-10 bg-white">
       <div className="max-w-7xl m-auto flex justify-between items-center">
         <img
           src={logo}
           alt="logo"
-          className="max-w-[100%] border border-b-[10px] border-[#04CF9F] py-[9px] w-[81px]"
+          className="max-w-[100%] border-b-[10px] border-[#04CF9F] py-[9px] w-[81px]"
         />
         <div className="space-x-3 lg:space-x-7 flex items-center font-semibold">
           {nav.map((item) => (

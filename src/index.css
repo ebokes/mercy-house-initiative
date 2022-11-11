@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.center {
+  @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+}
+.hero-bg {
+  @apply h-screen bg-no-repeat bg-cover bg-center m-auto relative shadow-[inset_0_0_0_1000px_#00000083];
+}
+.hero-center-text {
+  @apply text-white max-w-2xl text-center absolute center;
+}

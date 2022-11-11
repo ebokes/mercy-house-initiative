@@ -1,7 +1,12 @@
 import React from "react";
+import WhoWeAreIntro from "../components/WhoWeAreInto";
 
 const WhoWeAre = () => {
-  return <div>WhoWeAre</div>;
+  return (
+    <>
+      <WhoWeAreIntro />
+    </>
+  );
 };
 
 export default WhoWeAre;

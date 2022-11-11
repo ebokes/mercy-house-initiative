@@ -4,7 +4,7 @@ const nav = [
     link: "/",
   },
   {
-    title: "GET INVOLED",
+    title: "GET INVOVLED",
     link: "/get-involved",
   },
   {
