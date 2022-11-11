@@ -5,11 +5,11 @@ const nav = [
   },
   {
     title: "GET INVOLED",
-    link: "/involved",
+    link: "/get-involved",
   },
   {
     title: "CONTACT US",
-    link: "/contact",
+    link: "/contact-us",
   },
   {
     title: "GALLERY",
