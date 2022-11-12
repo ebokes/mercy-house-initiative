@@ -10,7 +10,7 @@ import WhoWeAre from "./pages/WhoWeAre";
 
 function App() {
   return (
-    <div className="font-Montserrat overflow-x-hidden relative">
+    <div className="font-Montserrat ">
       <Navbar />
       <Routes>
         <Route path="/" element={<WhoWeAre />} />
