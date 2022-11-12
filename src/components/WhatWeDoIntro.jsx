@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 const WhatWeDoIntro = () => {
   return (
     <section className="lg:flex justify-between  mx-auto">
-      <div className="h-90  lg:w-[50%] bg-cover bg-no-repeat bg-medic bg-center"></div>
+      <div className="lg:w-[50%] bg-cover bg-no-repeat bg-medic bg-center">
+        <p className="text-3xl text-transparent">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nam
+          similique libero officia veniam, tempora sed accusantium optio quis
+          dicta. Ipsa voluptatem velit tenetur voluptatibus temporibus eum est,
+          nihil maxime atque, magnam veritatis, dignissimos inventore id
+          perferendis! Odio, vitae, consequatur dolores, nostrum impedit ad ab
+          doloribus
+        </p>
+      </div>
       <div className="lg:w-[50%] bg-gradient-to-t from-gray-100 to-gray-100 p-8 pl-8 pb-[60px]">
         <div className="lg:max-w-[600px] pr-5">
           <h2 className="text-[52px] font-semibold">What we do</h2>
