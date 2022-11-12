@@ -16,7 +16,9 @@ const WhatWeDoIntro = () => {
       </div>
       <div className="lg:w-[50%] bg-gradient-to-t from-gray-100 to-gray-100 p-8 pl-8 pb-[60px]">
         <div className="lg:max-w-[600px] pr-5">
-          <h2 className="text-[52px] font-semibold">What we do</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-[52px] font-semibold">
+            What we do
+          </h2>
           <p className="mb-4">
             As a faith based organization, we attend to the needs of the total
             man. This we do by Youth empowerment and Capacity building:
