@@ -15,10 +15,10 @@
   }
 
   .arrow {
-    @apply flex justify-center items-center h-[103px] w-[103px] cursor-pointer absolute  rounded-full text-center z-[9] top-[47%];
+    @apply flex justify-center items-center h-[73px] w-[73px] cursor-pointer absolute  rounded-full text-center z-[9] top-[47%];
   }
 
   .arrow2 {
-    @apply h-[103px] w-[103px] opacity-30 text-white;
+    @apply h-[73px] w-[73px] opacity-30 text-white;
   }
 }
