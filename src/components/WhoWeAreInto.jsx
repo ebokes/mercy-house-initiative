@@ -49,7 +49,7 @@ const WhoWeAreIntro = () => {
     <section className=" mx-auto relative">
       <Slider {...settings}>
         {/* <div>Who we are</div> */}
-        <div className="hero-bg bg-[url('/src/assets/bg1.webp')]">
+        <div className="hero-bg bg-bg1">
           <div className="hero-center-text">
             <h1 className="text-7xl font-medium">THIS IS A COPY TEXT</h1>
             <hr />
@@ -62,7 +62,7 @@ const WhoWeAreIntro = () => {
             </p>
           </div>
         </div>
-        <div className="bg-[url('/src/assets/bg2.webp')]  hero-bg">
+        <div className="bg-bg2 hero-bg">
           <div className="hero-center-text">
             <h1 className="text-7xl font-medium">THIS IS THE 2ND COPY TEXT</h1>
             <hr />
@@ -75,7 +75,7 @@ const WhoWeAreIntro = () => {
             </p>
           </div>
         </div>
-        <div className="bg-[url('/src/assets/bg3.webp')]  hero-bg">
+        <div className="bg-bg3 hero-bg">
           <div className="hero-center-text">
             <h1 className="text-7xl font-medium">THIS IS THE 3RD COPY TEXT</h1>
             <hr />
