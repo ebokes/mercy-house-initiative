@@ -1,25 +1,25 @@
 import React from "react";
-// import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+import { IoChevronBackCircle, IoChevronForwardCircle } from "react-icons/io5";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const WhoWeAreIntro = () => {
-  // const NextArrow = ({ onClick }) => {
-  //   return (
-  //     <div onClick={onClick}>
-  //       <FaAngleRight className="icons" />
-  //     </div>
-  //   );
-  // };
+  const NextArrow = ({ onClick }) => {
+    return (
+      <button className="arrow z-[9] right-10 absolute" onClick={onClick}>
+        <IoChevronForwardCircle className="arrow2" />
+      </button>
+    );
+  };
 
-  // const PrevArrow = ({ onClick }) => {
-  //   return (
-  //     <div onClick={onClick}>
-  //       <FaAngleLeft className="icons" />
-  //     </div>
-  //   );
-  // };
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <button className="arrow z-[9] left-10 absolute" onClick={onClick}>
+        <IoChevronBackCircle className="arrow2" />
+      </button>
+    );
+  };
 
   const settings = {
     dots: true,
@@ -32,12 +32,12 @@ const WhoWeAreIntro = () => {
     centerPadding: 0,
     initialSlide: 0,
     autoplaySpeed: 7000,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     autoplay: true,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 960,
         settings: {
           arrows: false,
         },
@@ -46,7 +46,7 @@ const WhoWeAreIntro = () => {
   };
 
   return (
-    <section className=" mx-auto ">
+    <section className=" mx-auto relative">
       <Slider {...settings}>
         {/* <div>Who we are</div> */}
         <div className="hero-bg bg-[url('/src/assets/bg1.webp')]">

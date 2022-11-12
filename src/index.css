@@ -13,4 +13,12 @@
   .hero-center-text {
     @apply text-white max-w-2xl text-center absolute center;
   }
+
+  .arrow {
+    @apply flex justify-center items-center h-[103px] w-[103px] cursor-pointer absolute  rounded-full text-center z-[9] top-[47%];
+  }
+
+  .arrow2 {
+    @apply h-[103px] w-[103px] opacity-30 text-white;
+  }
 }

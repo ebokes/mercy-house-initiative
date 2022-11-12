@@ -18,6 +18,7 @@ module.exports = {
         bg1: "url('/src/assets/bg1.webp')",
         bg2: "url('/src/assets/bg2.webp')",
         bg3: "url('/src/assets/bg3.webp')",
+        // "arrow-gradient": "(to left, rgba())",
       },
     },
   },
