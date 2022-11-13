@@ -27,13 +27,7 @@ const Navbar = () => {
               {item.title}
             </NavLink>
           ))}
-          <span className="hidden lg:flex items-center space-x-1 ">
-            <BsGlobe />
-            <a className="hover:text-color1" href="/#">
-              ENGLISH
-            </a>
-          </span>
-          <BsSearch className="inline-flex text-2xl" />
+
           <span className="lg:hidden">
             <Hamburger
               // color="#36b37e"

@@ -35,6 +35,7 @@ const WhoWeAreIntro = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     autoplay: true,
+    dotsClass: "slick-dots slick-thumb",
     responsive: [
       {
         breakpoint: 960,
