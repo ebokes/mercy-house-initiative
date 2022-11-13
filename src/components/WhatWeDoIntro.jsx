@@ -5,7 +5,7 @@ const WhatWeDoIntro = () => {
   return (
     <section className="lg:flex justify-between  mx-auto">
       <div className="lg:w-[50%] bg-cover bg-no-repeat bg-medic bg-center">
-        <p className="text-3xl text-transparent">
+        <p className="text-3xl text-transparent selection:text-transparent ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nam
           similique libero officia veniam, tempora sed accusantium optio quis
           dicta. Ipsa voluptatem velit tenetur voluptatibus temporibus eum est,

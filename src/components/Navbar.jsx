@@ -14,7 +14,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="max-w-[100%] border-b-[10px] border-color1 py-[9px] w-[61px] lg:w-[81px]"
+            className="max-w-[100%] border-b-[7px] border-color1 py-[9px] w-[61px] lg:w-[71px]"
           />
         </Link>
         <div className="space-x-3 lg:space-x-7 flex items-center font-semibold">
