@@ -2,8 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import nav from "../data/navData";
 import logo from "../assets/MERCY HOUSE INNITIATIVE LOGO@2x.png";
-import { BsGlobe, BsSearch } from "react-icons/bs";
-// import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { Squeeze as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
