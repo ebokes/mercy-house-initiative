@@ -14,7 +14,7 @@ const WhatWeDoIntro = () => {
           doloribus
         </p>
       </div>
-      <div className="lg:w-[50%] bg-gradient-to-t from-gray-100 to-gray-100 p-8 pl-8 pb-[60px]">
+      <div className="lg:w-[50%] bg-gradient-to-t from-gray-100 to-gray-100 pl-5 lg:pl-8 py-[60px]">
         <div className="lg:max-w-[600px] pr-5">
           <h2 className="text-4xl md:text-5xl lg:text-[52px] font-semibold">
             What we do
