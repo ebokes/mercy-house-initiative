@@ -89,6 +89,19 @@ const WhoWeAreIntro = () => {
             </p>
           </div>
         </div>
+        <div className="bg-bg4 hero-bg">
+          <div className="hero-center-text">
+            <h1 className="text-7xl font-medium">THIS IS THE 4TH COPY TEXT</h1>
+            <hr />
+            <p>
+              This is a subtext for the copy text, It's supposed to be many but
+              I don't know what to write here I thought about using lorem Ipsum
+              but I could not bring my self to do that. But wow check this out
+              there are a lot of words already. I feel like going on but I'm
+              exhausted
+            </p>
+          </div>
+        </div>
       </Slider>
     </section>
   );
