@@ -9,7 +9,7 @@ const ScrollGallery = () => {
     dots: false,
     infinite: true,
     lazyLoad: true,
-    speed: 700,
+    speed: 400,
     slidesToShow: 4,
     slidesToScroll: 1,
     // centerMode: true,
