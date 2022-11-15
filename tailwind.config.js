@@ -14,7 +14,7 @@ module.exports = {
         Montserrat: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
-        medic: " url('/src/assets/medication.webp')",
+        medic: " url('/src/assets/whatwedo.webp')",
         bg1: "linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/src/assets/main-bg1.webp')",
         bg2: "linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/src/assets/main-bg2.webp')",
         bg3: "linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/src/assets/main-bg3.webp')",
